@@ -1,0 +1,2472 @@
+[
+  {
+    "employee": [
+      {
+        "id": "c6311284-993a-4560-8da0-103c266a78a2",
+        "position": "Software Engineer",
+        "hire_date": "2023-10-08T10:27:00.405Z",
+        "termination_date": "2023-10-08T14:45:31.007Z",
+        "salary": 2608,
+        "created_at": "2023-10-09T00:23:41.134Z",
+        "updated_at": "2023-10-08T15:45:40.899Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6b240706-59f5-47fb-aadb-c17249c0fa6d",
+        "position": "Marketing Specialist",
+        "hire_date": "2023-10-08T13:00:34.502Z",
+        "termination_date": "2023-10-09T05:08:53.824Z",
+        "salary": 51748,
+        "created_at": "2023-10-08T10:01:29.765Z",
+        "updated_at": "2023-10-08T18:06:19.017Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a9c684e1-85ea-4689-ae90-93c9790ae3a5",
+        "position": "HR Manager",
+        "hire_date": "2023-10-08T13:59:16.305Z",
+        "termination_date": "2023-10-08T18:02:54.849Z",
+        "salary": 18936,
+        "created_at": "2023-10-08T14:14:04.006Z",
+        "updated_at": "2023-10-08T20:40:05.776Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a30e54bc-4e47-491a-a24d-a51f906a796d",
+        "position": "Sales Executive",
+        "hire_date": "2023-10-08T15:06:25.917Z",
+        "termination_date": "2023-10-08T18:26:33.892Z",
+        "salary": 19959,
+        "created_at": "2023-10-09T02:58:26.912Z",
+        "updated_at": "2023-10-08T17:41:06.265Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "db2a92c6-846b-431e-b2fc-7e89a453c786",
+        "position": "Operations Coordinator",
+        "hire_date": "2023-10-08T19:03:53.783Z",
+        "termination_date": "2023-10-08T19:17:59.695Z",
+        "salary": 71785,
+        "created_at": "2023-10-08T10:49:45.641Z",
+        "updated_at": "2023-10-08T10:51:15.154Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "b19bd88e-5c50-4276-ac75-b223f6681b49",
+        "start_date": "2023-10-08T14:22:09.237Z",
+        "end_date": "2023-10-08T20:59:47.734Z",
+        "status": "Approved",
+        "created_at": "2023-10-08T15:55:58.835Z",
+        "updated_at": "2023-10-09T00:52:37.310Z",
+        "employee_id": "c6311284-993a-4560-8da0-103c266a78a2"
+      },
+      {
+        "id": "ccc1cd93-1216-4f78-a2ee-91103b43f35c",
+        "start_date": "2023-10-08T11:39:16.391Z",
+        "end_date": "2023-10-08T19:46:50.652Z",
+        "status": "Pending",
+        "created_at": "2023-10-08T16:13:13.897Z",
+        "updated_at": "2023-10-08T10:05:02.038Z",
+        "employee_id": "db2a92c6-846b-431e-b2fc-7e89a453c786"
+      },
+      {
+        "id": "c9f4d08b-7a63-4406-ab5d-f21a35780d85",
+        "start_date": "2023-10-09T05:25:55.488Z",
+        "end_date": "2023-10-08T20:29:21.734Z",
+        "status": "Cancelled",
+        "created_at": "2023-10-09T06:22:55.261Z",
+        "updated_at": "2023-10-08T20:03:28.529Z",
+        "employee_id": "a30e54bc-4e47-491a-a24d-a51f906a796d"
+      },
+      {
+        "id": "2c215569-f730-48bc-9544-c57d92788e39",
+        "start_date": "2023-10-09T04:54:43.272Z",
+        "end_date": "2023-10-08T15:25:33.644Z",
+        "status": "Scheduled",
+        "created_at": "2023-10-08T19:16:42.499Z",
+        "updated_at": "2023-10-08T21:06:49.864Z",
+        "employee_id": "c6311284-993a-4560-8da0-103c266a78a2"
+      },
+      {
+        "id": "45b36e35-66e2-44d4-8d96-4a28671d766c",
+        "start_date": "2023-10-09T01:41:51.310Z",
+        "end_date": "2023-10-09T07:29:40.797Z",
+        "status": "Rejected",
+        "created_at": "2023-10-09T05:14:48.363Z",
+        "updated_at": "2023-10-08T14:32:11.320Z",
+        "employee_id": "db2a92c6-846b-431e-b2fc-7e89a453c786"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "041416ab-fed0-4db6-ac2f-e29181990d09",
+        "pay_period_start": "2023-10-09T03:36:03.436Z",
+        "pay_period_end": "2023-10-08T12:53:02.884Z",
+        "gross_pay": 58707,
+        "net_pay": 80930,
+        "deductions": 72732,
+        "created_at": "2023-10-08T20:49:49.272Z",
+        "updated_at": "2023-10-08T09:08:52.336Z",
+        "employee_id": "a9c684e1-85ea-4689-ae90-93c9790ae3a5"
+      },
+      {
+        "id": "e2e260db-f404-4531-b0cf-30e0a269c38a",
+        "pay_period_start": "2023-10-08T15:42:54.517Z",
+        "pay_period_end": "2023-10-09T00:22:31.200Z",
+        "gross_pay": 93855,
+        "net_pay": 21201,
+        "deductions": 7788,
+        "created_at": "2023-10-08T19:14:50.575Z",
+        "updated_at": "2023-10-08T20:56:16.655Z",
+        "employee_id": "c6311284-993a-4560-8da0-103c266a78a2"
+      },
+      {
+        "id": "38e3a415-3dd9-4760-b21f-7c1e8dba49a7",
+        "pay_period_start": "2023-10-08T19:54:46.870Z",
+        "pay_period_end": "2023-10-08T17:24:27.789Z",
+        "gross_pay": 53055,
+        "net_pay": 91399,
+        "deductions": 28911,
+        "created_at": "2023-10-08T11:44:41.156Z",
+        "updated_at": "2023-10-08T20:18:30.200Z",
+        "employee_id": "a30e54bc-4e47-491a-a24d-a51f906a796d"
+      },
+      {
+        "id": "6efd29e9-8a12-4d71-abe8-42d9d28717ae",
+        "pay_period_start": "2023-10-08T11:17:43.097Z",
+        "pay_period_end": "2023-10-08T09:51:28.685Z",
+        "gross_pay": 98139,
+        "net_pay": 35589,
+        "deductions": 56976,
+        "created_at": "2023-10-09T06:56:17.676Z",
+        "updated_at": "2023-10-09T03:06:22.170Z",
+        "employee_id": "6b240706-59f5-47fb-aadb-c17249c0fa6d"
+      },
+      {
+        "id": "98810f3a-e191-4acc-aa32-a8022bbf4d4f",
+        "pay_period_start": "2023-10-09T06:40:43.969Z",
+        "pay_period_end": "2023-10-09T00:55:07.447Z",
+        "gross_pay": 47149,
+        "net_pay": 73177,
+        "deductions": 1995,
+        "created_at": "2023-10-08T18:46:22.999Z",
+        "updated_at": "2023-10-08T08:20:07.454Z",
+        "employee_id": "a30e54bc-4e47-491a-a24d-a51f906a796d"
+      }
+    ],
+    "hr_information": [
+      {
+        "id": "a562941a-1d45-495a-b7b2-55ce26bd402d",
+        "information": "Employee Handbook",
+        "created_at": "2023-10-08T19:10:31.210Z",
+        "updated_at": "2023-10-09T00:39:22.417Z",
+        "employee_id": "a9c684e1-85ea-4689-ae90-93c9790ae3a5"
+      },
+      {
+        "id": "be6c70c0-169d-4ca2-adeb-e45448a35d03",
+        "information": "Benefits Package",
+        "created_at": "2023-10-09T03:52:34.255Z",
+        "updated_at": "2023-10-09T01:22:16.683Z",
+        "employee_id": "6b240706-59f5-47fb-aadb-c17249c0fa6d"
+      },
+      {
+        "id": "d1b9797a-df3b-4ac9-90c5-e62f1d6cf9d3",
+        "information": "Company Policies",
+        "created_at": "2023-10-08T20:36:01.576Z",
+        "updated_at": "2023-10-08T19:40:00.207Z",
+        "employee_id": "a9c684e1-85ea-4689-ae90-93c9790ae3a5"
+      },
+      {
+        "id": "1d9252a7-472f-4ef9-b7e7-71ead0e6a101",
+        "information": "Training Programs",
+        "created_at": "2023-10-09T00:12:32.469Z",
+        "updated_at": "2023-10-08T13:15:12.515Z",
+        "employee_id": "c6311284-993a-4560-8da0-103c266a78a2"
+      },
+      {
+        "id": "8203b0fd-d84b-4913-9396-48e70e6c61c7",
+        "information": "Performance Evaluation",
+        "created_at": "2023-10-08T14:14:05.734Z",
+        "updated_at": "2023-10-08T10:39:26.744Z",
+        "employee_id": "db2a92c6-846b-431e-b2fc-7e89a453c786"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f570faf2-bfc1-4b47-9326-490ae45448e5",
+        "email": "Jayne_Hilpert@roq.tech",
+        "firstName": "Thaddeus",
+        "lastName": "Ullrich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53557369",
+        "tenantId": null
+      },
+      {
+        "reference": "bdb7fe3d-2bca-4f20-b5d8-0b36b442f0de",
+        "email": "Barry.Bruen@roq.tech",
+        "firstName": "Tatum",
+        "lastName": "Harris",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/484.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "464259a5-f2ed-4cbe-aa77-3c169703668a",
+        "email": "Tristian_Harris@roq.tech",
+        "firstName": "Annabell",
+        "lastName": "Stokes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42157962",
+        "tenantId": null
+      },
+      {
+        "reference": "9bf06536-07b8-4cd6-b1ba-d9b693d3379c",
+        "email": "Morton43@roq.tech",
+        "firstName": "Adella",
+        "lastName": "Jast",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/301.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "71457dce-4415-4fbb-84df-f147312a4c25",
+        "email": "Milton_Gibson33@roq.tech",
+        "firstName": "Allison",
+        "lastName": "Fadel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1029.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "12b9dd01-662e-4f52-a5ac-68d7c4b7337d",
+        "position": "Software Engineer",
+        "hire_date": "2023-10-09T01:06:35.640Z",
+        "termination_date": "2023-10-08T10:19:34.033Z",
+        "salary": 24806,
+        "created_at": "2023-10-09T02:49:50.304Z",
+        "updated_at": "2023-10-09T03:14:56.014Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bd912b03-0425-498c-88c2-e12a8b728ec4",
+        "position": "Sales Manager",
+        "hire_date": "2023-10-08T11:52:16.739Z",
+        "termination_date": "2023-10-09T01:38:48.239Z",
+        "salary": 60446,
+        "created_at": "2023-10-08T23:45:35.400Z",
+        "updated_at": "2023-10-08T14:35:13.673Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ef49d823-9e47-49ff-9fd8-40f8bb59e686",
+        "position": "Accountant",
+        "hire_date": "2023-10-08T16:39:30.611Z",
+        "termination_date": "2023-10-08T18:10:18.146Z",
+        "salary": 37027,
+        "created_at": "2023-10-09T05:38:29.405Z",
+        "updated_at": "2023-10-09T00:18:53.567Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a6aae88-6a5f-4f04-b395-ed149506d2f8",
+        "position": "Marketing Specialist",
+        "hire_date": "2023-10-08T17:06:26.046Z",
+        "termination_date": "2023-10-08T08:34:57.714Z",
+        "salary": 58493,
+        "created_at": "2023-10-08T16:19:34.311Z",
+        "updated_at": "2023-10-09T05:24:40.339Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f05f1d0a-3f7f-410a-919e-b3b6dce1b3a4",
+        "position": "HR Coordinator",
+        "hire_date": "2023-10-08T10:23:57.382Z",
+        "termination_date": "2023-10-08T15:31:02.519Z",
+        "salary": 95218,
+        "created_at": "2023-10-09T04:57:22.358Z",
+        "updated_at": "2023-10-09T02:37:47.025Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "33f5142b-0e27-4dd0-b02e-633942be4eae",
+        "start_date": "2023-10-08T18:36:36.948Z",
+        "end_date": "2023-10-09T07:52:31.648Z",
+        "status": "Approved",
+        "created_at": "2023-10-08T23:41:04.928Z",
+        "updated_at": "2023-10-08T20:27:04.185Z",
+        "employee_id": "bd912b03-0425-498c-88c2-e12a8b728ec4"
+      },
+      {
+        "id": "1b7c9b55-59cc-46e8-a0ad-e3d39ea0712a",
+        "start_date": "2023-10-09T05:09:09.534Z",
+        "end_date": "2023-10-08T13:22:43.284Z",
+        "status": "Pending",
+        "created_at": "2023-10-09T06:57:20.022Z",
+        "updated_at": "2023-10-08T10:44:55.533Z",
+        "employee_id": "f05f1d0a-3f7f-410a-919e-b3b6dce1b3a4"
+      },
+      {
+        "id": "15923f86-44a0-45d5-8a46-7db816b74f6f",
+        "start_date": "2023-10-08T11:05:50.069Z",
+        "end_date": "2023-10-09T01:18:07.389Z",
+        "status": "Cancelled",
+        "created_at": "2023-10-09T02:57:44.731Z",
+        "updated_at": "2023-10-09T06:34:40.122Z",
+        "employee_id": "ef49d823-9e47-49ff-9fd8-40f8bb59e686"
+      },
+      {
+        "id": "cf9147e2-c978-48b0-881c-cdaf97dc9896",
+        "start_date": "2023-10-09T00:05:13.411Z",
+        "end_date": "2023-10-09T06:01:53.290Z",
+        "status": "Scheduled",
+        "created_at": "2023-10-08T13:05:57.477Z",
+        "updated_at": "2023-10-08T22:08:11.190Z",
+        "employee_id": "12b9dd01-662e-4f52-a5ac-68d7c4b7337d"
+      },
+      {
+        "id": "eca5a19d-bdd7-42ea-88cc-f1e14141022f",
+        "start_date": "2023-10-09T00:30:18.131Z",
+        "end_date": "2023-10-09T02:43:02.482Z",
+        "status": "Completed",
+        "created_at": "2023-10-08T23:18:33.422Z",
+        "updated_at": "2023-10-08T23:24:11.950Z",
+        "employee_id": "12b9dd01-662e-4f52-a5ac-68d7c4b7337d"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "c57c959a-34f8-4156-b72d-044f968f61b0",
+        "pay_period_start": "2023-10-09T01:37:45.583Z",
+        "pay_period_end": "2023-10-08T20:05:16.978Z",
+        "gross_pay": 43170,
+        "net_pay": 79769,
+        "deductions": 9347,
+        "created_at": "2023-10-09T05:43:46.348Z",
+        "updated_at": "2023-10-08T13:22:38.870Z",
+        "employee_id": "1a6aae88-6a5f-4f04-b395-ed149506d2f8"
+      },
+      {
+        "id": "3cb6ff88-2a8f-460a-b558-458a27a95866",
+        "pay_period_start": "2023-10-08T08:39:20.294Z",
+        "pay_period_end": "2023-10-08T09:25:45.555Z",
+        "gross_pay": 86118,
+        "net_pay": 58008,
+        "deductions": 69713,
+        "created_at": "2023-10-08T10:57:50.971Z",
+        "updated_at": "2023-10-08T17:46:43.920Z",
+        "employee_id": "ef49d823-9e47-49ff-9fd8-40f8bb59e686"
+      },
+      {
+        "id": "148faa31-79ca-4833-a298-6a659851147b",
+        "pay_period_start": "2023-10-09T07:36:15.653Z",
+        "pay_period_end": "2023-10-09T06:28:29.729Z",
+        "gross_pay": 2819,
+        "net_pay": 27311,
+        "deductions": 80050,
+        "created_at": "2023-10-08T08:34:57.653Z",
+        "updated_at": "2023-10-09T07:06:11.451Z",
+        "employee_id": "bd912b03-0425-498c-88c2-e12a8b728ec4"
+      },
+      {
+        "id": "175bd490-5513-4eae-bcb4-8069321b9551",
+        "pay_period_start": "2023-10-09T05:19:38.961Z",
+        "pay_period_end": "2023-10-09T01:00:37.612Z",
+        "gross_pay": 6539,
+        "net_pay": 40715,
+        "deductions": 44975,
+        "created_at": "2023-10-08T19:29:28.209Z",
+        "updated_at": "2023-10-08T21:58:55.256Z",
+        "employee_id": "bd912b03-0425-498c-88c2-e12a8b728ec4"
+      },
+      {
+        "id": "cb836b75-a9e0-48a3-9842-707148a1cb6c",
+        "pay_period_start": "2023-10-09T06:42:06.207Z",
+        "pay_period_end": "2023-10-09T06:11:17.771Z",
+        "gross_pay": 10566,
+        "net_pay": 44611,
+        "deductions": 2756,
+        "created_at": "2023-10-08T11:04:32.537Z",
+        "updated_at": "2023-10-08T09:52:13.954Z",
+        "employee_id": "f05f1d0a-3f7f-410a-919e-b3b6dce1b3a4"
+      }
+    ],
+    "hr_information": [
+      {
+        "id": "8898c522-ef37-49cf-a9f6-dd29349b6ae5",
+        "information": "Employee Handbook",
+        "created_at": "2023-10-08T13:18:54.671Z",
+        "updated_at": "2023-10-08T23:47:01.278Z",
+        "employee_id": "1a6aae88-6a5f-4f04-b395-ed149506d2f8"
+      },
+      {
+        "id": "b63e2baf-a0e5-4240-8583-d22790e9bd37",
+        "information": "Benefits Package",
+        "created_at": "2023-10-08T17:51:15.201Z",
+        "updated_at": "2023-10-09T03:21:45.842Z",
+        "employee_id": "12b9dd01-662e-4f52-a5ac-68d7c4b7337d"
+      },
+      {
+        "id": "90b56ea3-01a4-42a0-8fcf-5dad5dbd3e46",
+        "information": "Company Policies",
+        "created_at": "2023-10-09T03:25:20.182Z",
+        "updated_at": "2023-10-08T11:18:40.631Z",
+        "employee_id": "ef49d823-9e47-49ff-9fd8-40f8bb59e686"
+      },
+      {
+        "id": "a7ec10bf-b249-4a08-8b53-4eb5150d48cd",
+        "information": "Training Programs",
+        "created_at": "2023-10-09T00:12:46.385Z",
+        "updated_at": "2023-10-09T04:38:55.241Z",
+        "employee_id": "12b9dd01-662e-4f52-a5ac-68d7c4b7337d"
+      },
+      {
+        "id": "6446a81b-df01-4a77-8f63-8c4967adc641",
+        "information": "Performance Evaluation",
+        "created_at": "2023-10-08T18:32:47.163Z",
+        "updated_at": "2023-10-08T17:35:56.986Z",
+        "employee_id": "f05f1d0a-3f7f-410a-919e-b3b6dce1b3a4"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2eb03217-80f5-4af1-a831-36bb97b31035",
+        "email": "Maribel_Leuschke@roq.tech",
+        "firstName": "Everette",
+        "lastName": "Ernser",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57119849",
+        "tenantId": null
+      },
+      {
+        "reference": "b22aa8c2-2d9e-45f3-8d12-da4f407bfcee",
+        "email": "Eladio.Mertz33@roq.tech",
+        "firstName": "Jamar",
+        "lastName": "Kohler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/821.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "01f3b3cc-e376-4707-9226-ead8bdf12b63",
+        "email": "Nelle.Baumbach94@roq.tech",
+        "firstName": "Lula",
+        "lastName": "Ferry",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38717424",
+        "tenantId": null
+      },
+      {
+        "reference": "82d5c4fb-810a-4c5b-8b92-8e4cfa04e02a",
+        "email": "Nayeli_Heller73@roq.tech",
+        "firstName": "Caterina",
+        "lastName": "Carroll",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65724718",
+        "tenantId": null
+      },
+      {
+        "reference": "f9a335e4-837a-4db8-8b2f-823039f55c91",
+        "email": "Percival.Hammes3@roq.tech",
+        "firstName": "Marcia",
+        "lastName": "Zulauf",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/407.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "c69f2dda-e33a-4936-b0cb-ef60f989e677",
+        "position": "Manager",
+        "hire_date": "2023-10-08T16:20:56.482Z",
+        "termination_date": "2023-10-08T16:01:28.686Z",
+        "salary": 12273,
+        "created_at": "2023-10-09T03:44:17.331Z",
+        "updated_at": "2023-10-08T23:06:00.432Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "242f6b6f-75ed-43a6-b513-62d0004f4160",
+        "position": "Engineer",
+        "hire_date": "2023-10-08T13:11:52.170Z",
+        "termination_date": "2023-10-09T04:42:13.847Z",
+        "salary": 17753,
+        "created_at": "2023-10-08T23:27:26.961Z",
+        "updated_at": "2023-10-09T02:53:49.387Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "452fbf2f-8996-4e47-83a8-992d245fa566",
+        "position": "Sales Representative",
+        "hire_date": "2023-10-09T06:15:42.827Z",
+        "termination_date": "2023-10-08T13:35:04.240Z",
+        "salary": 72101,
+        "created_at": "2023-10-08T11:36:23.860Z",
+        "updated_at": "2023-10-08T14:18:30.056Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "31f9ed4b-e60a-4c19-aac2-e9e668aa08ec",
+        "position": "Accountant",
+        "hire_date": "2023-10-09T04:23:39.292Z",
+        "termination_date": "2023-10-08T16:32:55.885Z",
+        "salary": 23250,
+        "created_at": "2023-10-08T18:21:26.228Z",
+        "updated_at": "2023-10-09T06:16:52.429Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "67532009-6f83-40a8-a71f-50d4daa96b2e",
+        "position": "Human Resources Specialist",
+        "hire_date": "2023-10-08T21:08:59.649Z",
+        "termination_date": "2023-10-08T21:10:12.683Z",
+        "salary": 8689,
+        "created_at": "2023-10-08T17:07:03.455Z",
+        "updated_at": "2023-10-08T21:23:51.271Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "f0a05f15-605c-463f-9ed4-931abb88da0b",
+        "start_date": "2023-10-09T06:13:25.747Z",
+        "end_date": "2023-10-08T22:23:20.854Z",
+        "status": "Approved",
+        "created_at": "2023-10-08T19:34:19.562Z",
+        "updated_at": "2023-10-08T22:00:41.361Z",
+        "employee_id": "67532009-6f83-40a8-a71f-50d4daa96b2e"
+      },
+      {
+        "id": "fa4ed62f-95d5-4c69-b933-760cd5ac5eb2",
+        "start_date": "2023-10-08T22:41:00.888Z",
+        "end_date": "2023-10-08T14:39:21.855Z",
+        "status": "Pending",
+        "created_at": "2023-10-09T03:09:31.287Z",
+        "updated_at": "2023-10-08T16:07:09.952Z",
+        "employee_id": "67532009-6f83-40a8-a71f-50d4daa96b2e"
+      },
+      {
+        "id": "3efa9d5a-d1a4-4aa2-852f-af2c2c22650d",
+        "start_date": "2023-10-08T18:59:42.818Z",
+        "end_date": "2023-10-08T12:54:29.192Z",
+        "status": "Cancelled",
+        "created_at": "2023-10-08T20:30:25.669Z",
+        "updated_at": "2023-10-09T01:58:03.555Z",
+        "employee_id": "31f9ed4b-e60a-4c19-aac2-e9e668aa08ec"
+      },
+      {
+        "id": "381443bf-5ab0-4b91-9b83-8dc5927fe9c5",
+        "start_date": "2023-10-08T10:27:51.253Z",
+        "end_date": "2023-10-08T09:41:42.587Z",
+        "status": "Scheduled",
+        "created_at": "2023-10-08T14:44:53.632Z",
+        "updated_at": "2023-10-09T02:40:12.860Z",
+        "employee_id": "31f9ed4b-e60a-4c19-aac2-e9e668aa08ec"
+      },
+      {
+        "id": "4d62582a-6b81-49b8-a77b-c3f8f8ba24d0",
+        "start_date": "2023-10-09T04:30:32.958Z",
+        "end_date": "2023-10-08T15:34:04.171Z",
+        "status": "Completed",
+        "created_at": "2023-10-08T19:38:01.266Z",
+        "updated_at": "2023-10-08T16:55:28.232Z",
+        "employee_id": "31f9ed4b-e60a-4c19-aac2-e9e668aa08ec"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "3415c068-cb40-4b1c-a80f-b60dba22e6fb",
+        "pay_period_start": "2023-10-09T03:29:20.056Z",
+        "pay_period_end": "2023-10-08T21:58:03.948Z",
+        "gross_pay": 36297,
+        "net_pay": 90132,
+        "deductions": 6935,
+        "created_at": "2023-10-09T04:43:23.052Z",
+        "updated_at": "2023-10-08T21:06:08.990Z",
+        "employee_id": "452fbf2f-8996-4e47-83a8-992d245fa566"
+      },
+      {
+        "id": "ebbb008f-e278-4f6c-87f5-370dbf053b78",
+        "pay_period_start": "2023-10-08T16:52:08.516Z",
+        "pay_period_end": "2023-10-08T13:03:08.229Z",
+        "gross_pay": 73005,
+        "net_pay": 2924,
+        "deductions": 93722,
+        "created_at": "2023-10-08T16:44:45.144Z",
+        "updated_at": "2023-10-09T02:21:24.930Z",
+        "employee_id": "242f6b6f-75ed-43a6-b513-62d0004f4160"
+      },
+      {
+        "id": "8ba52bad-7c33-4293-a883-ef2c90641b81",
+        "pay_period_start": "2023-10-08T19:04:44.048Z",
+        "pay_period_end": "2023-10-08T11:14:22.833Z",
+        "gross_pay": 63411,
+        "net_pay": 91774,
+        "deductions": 50752,
+        "created_at": "2023-10-09T03:07:44.673Z",
+        "updated_at": "2023-10-08T08:38:26.367Z",
+        "employee_id": "c69f2dda-e33a-4936-b0cb-ef60f989e677"
+      },
+      {
+        "id": "46cea767-0da0-4959-8d1b-8fedc702bfbc",
+        "pay_period_start": "2023-10-08T09:05:04.882Z",
+        "pay_period_end": "2023-10-09T03:57:15.088Z",
+        "gross_pay": 51669,
+        "net_pay": 82798,
+        "deductions": 4984,
+        "created_at": "2023-10-08T14:35:55.159Z",
+        "updated_at": "2023-10-08T19:05:05.327Z",
+        "employee_id": "242f6b6f-75ed-43a6-b513-62d0004f4160"
+      },
+      {
+        "id": "96b9a899-4a91-405a-89b9-2ce0d31d820f",
+        "pay_period_start": "2023-10-08T21:33:48.915Z",
+        "pay_period_end": "2023-10-08T21:44:25.733Z",
+        "gross_pay": 557,
+        "net_pay": 98602,
+        "deductions": 88923,
+        "created_at": "2023-10-08T21:22:07.781Z",
+        "updated_at": "2023-10-08T23:50:33.153Z",
+        "employee_id": "242f6b6f-75ed-43a6-b513-62d0004f4160"
+      }
+    ],
+    "hr_information": [
+      {
+        "id": "1c980153-e578-48cc-817e-e509527ebca1",
+        "information": "Employee handbook",
+        "created_at": "2023-10-09T02:41:56.678Z",
+        "updated_at": "2023-10-08T18:56:19.265Z",
+        "employee_id": "242f6b6f-75ed-43a6-b513-62d0004f4160"
+      },
+      {
+        "id": "155ed2c3-70da-4187-b4cb-6ebfea9b2864",
+        "information": "Benefits package",
+        "created_at": "2023-10-08T14:03:26.245Z",
+        "updated_at": "2023-10-09T06:19:06.996Z",
+        "employee_id": "242f6b6f-75ed-43a6-b513-62d0004f4160"
+      },
+      {
+        "id": "e763c5e3-3360-4f62-830e-c1e95d7e6260",
+        "information": "Training materials",
+        "created_at": "2023-10-09T01:12:31.850Z",
+        "updated_at": "2023-10-08T09:56:52.708Z",
+        "employee_id": "31f9ed4b-e60a-4c19-aac2-e9e668aa08ec"
+      },
+      {
+        "id": "887a674a-91ec-4c54-a9f0-afe68219bbc9",
+        "information": "Performance evaluation forms",
+        "created_at": "2023-10-08T14:09:29.772Z",
+        "updated_at": "2023-10-08T16:41:01.682Z",
+        "employee_id": "c69f2dda-e33a-4936-b0cb-ef60f989e677"
+      },
+      {
+        "id": "50515b21-6016-4c1f-bf04-213af8924cc1",
+        "information": "Company policies",
+        "created_at": "2023-10-09T04:41:04.472Z",
+        "updated_at": "2023-10-09T01:12:26.496Z",
+        "employee_id": "31f9ed4b-e60a-4c19-aac2-e9e668aa08ec"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "bf75f46f-08d3-43cf-ae2f-6f6454490d07",
+        "email": "Elta.Gleason63@roq.tech",
+        "firstName": "Delia",
+        "lastName": "Vandervort",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1222.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c6cd6b52-7840-49ab-b20b-2c0175ef3ff4",
+        "email": "Jeffery.Hodkiewicz@roq.tech",
+        "firstName": "Scotty",
+        "lastName": "Vandervort",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78714923",
+        "tenantId": null
+      },
+      {
+        "reference": "05486816-3d64-44ce-9a58-f53c0e0b4496",
+        "email": "Mikel.Mayert@roq.tech",
+        "firstName": "Missouri",
+        "lastName": "Schultz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90513880",
+        "tenantId": null
+      },
+      {
+        "reference": "024e0b38-a5bc-4d73-b8d4-6f634eaf8c9e",
+        "email": "Velma_Stokes32@roq.tech",
+        "firstName": "Stewart",
+        "lastName": "Hansen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89667553",
+        "tenantId": null
+      },
+      {
+        "reference": "eb5c6ec6-f732-4fa5-8dc6-88c6785a8ca6",
+        "email": "Jazmyn78@roq.tech",
+        "firstName": "Elbert",
+        "lastName": "Sawayn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/282.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "a7e41d1e-e6cd-4662-9ca7-8512e0c7ed5a",
+        "position": "Software Engineer",
+        "hire_date": "2023-10-08T22:07:50.235Z",
+        "termination_date": "2023-10-08T18:26:44.901Z",
+        "salary": 81341,
+        "created_at": "2023-10-08T19:07:24.363Z",
+        "updated_at": "2023-10-08T19:53:50.597Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f500a52d-a31a-4b2d-b632-9a3a66bf4d74",
+        "position": "Sales Manager",
+        "hire_date": "2023-10-08T08:44:26.675Z",
+        "termination_date": "2023-10-08T14:14:25.948Z",
+        "salary": 32855,
+        "created_at": "2023-10-09T06:36:59.077Z",
+        "updated_at": "2023-10-09T02:04:07.767Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c4cd3981-49c9-47cd-b780-5af0b0539c1d",
+        "position": "HR Coordinator",
+        "hire_date": "2023-10-08T08:50:20.644Z",
+        "termination_date": "2023-10-08T08:14:56.313Z",
+        "salary": 93759,
+        "created_at": "2023-10-08T17:13:06.355Z",
+        "updated_at": "2023-10-08T14:30:59.688Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "05e86c6c-ea95-417e-a92f-4e985bf0c305",
+        "position": "Operations Analyst",
+        "hire_date": "2023-10-09T07:04:39.052Z",
+        "termination_date": "2023-10-08T14:57:18.832Z",
+        "salary": 76426,
+        "created_at": "2023-10-09T04:10:39.979Z",
+        "updated_at": "2023-10-09T03:07:32.816Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1b58efa8-212d-415e-a9b3-bb25b20c805a",
+        "position": "Marketing Specialist",
+        "hire_date": "2023-10-08T12:41:46.277Z",
+        "termination_date": "2023-10-08T22:22:16.140Z",
+        "salary": 56893,
+        "created_at": "2023-10-09T00:56:47.220Z",
+        "updated_at": "2023-10-09T06:36:23.698Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "1eaa3664-db1d-4338-91ef-4f8529689a2f",
+        "start_date": "2023-10-09T07:45:21.505Z",
+        "end_date": "2023-10-08T15:33:42.338Z",
+        "status": "Approved",
+        "created_at": "2023-10-09T06:21:50.973Z",
+        "updated_at": "2023-10-08T15:29:04.168Z",
+        "employee_id": "c4cd3981-49c9-47cd-b780-5af0b0539c1d"
+      },
+      {
+        "id": "054dafaa-1b2d-4aa2-bfdc-e91bba3c9a7f",
+        "start_date": "2023-10-09T00:54:18.762Z",
+        "end_date": "2023-10-09T03:43:54.128Z",
+        "status": "Pending",
+        "created_at": "2023-10-09T02:05:34.611Z",
+        "updated_at": "2023-10-09T07:02:06.302Z",
+        "employee_id": "f500a52d-a31a-4b2d-b632-9a3a66bf4d74"
+      },
+      {
+        "id": "c86ba050-7eef-4dd2-a552-35a2bca21022",
+        "start_date": "2023-10-08T23:53:42.133Z",
+        "end_date": "2023-10-08T15:07:51.996Z",
+        "status": "Cancelled",
+        "created_at": "2023-10-08T21:36:51.237Z",
+        "updated_at": "2023-10-08T20:35:55.263Z",
+        "employee_id": "1b58efa8-212d-415e-a9b3-bb25b20c805a"
+      },
+      {
+        "id": "f2985f11-b14d-4553-9f93-e5d04b5f723d",
+        "start_date": "2023-10-09T05:24:06.025Z",
+        "end_date": "2023-10-09T05:20:42.407Z",
+        "status": "Scheduled",
+        "created_at": "2023-10-08T19:11:24.096Z",
+        "updated_at": "2023-10-08T17:44:43.328Z",
+        "employee_id": "f500a52d-a31a-4b2d-b632-9a3a66bf4d74"
+      },
+      {
+        "id": "298680ea-d5b0-4afa-a9d9-147b10507a94",
+        "start_date": "2023-10-08T21:02:53.293Z",
+        "end_date": "2023-10-08T19:55:44.640Z",
+        "status": "In Progress",
+        "created_at": "2023-10-09T00:25:52.510Z",
+        "updated_at": "2023-10-08T10:08:40.386Z",
+        "employee_id": "1b58efa8-212d-415e-a9b3-bb25b20c805a"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "9ca23f59-1a89-43d1-b855-26e4914fed45",
+        "pay_period_start": "2023-10-08T12:32:02.483Z",
+        "pay_period_end": "2023-10-08T20:40:17.596Z",
+        "gross_pay": 82235,
+        "net_pay": 9826,
+        "deductions": 77836,
+        "created_at": "2023-10-09T02:13:31.265Z",
+        "updated_at": "2023-10-09T03:45:39.999Z",
+        "employee_id": "f500a52d-a31a-4b2d-b632-9a3a66bf4d74"
+      },
+      {
+        "id": "53769b81-6fba-4b7e-b366-218ad260f63d",
+        "pay_period_start": "2023-10-08T21:24:45.447Z",
+        "pay_period_end": "2023-10-08T13:16:04.496Z",
+        "gross_pay": 76471,
+        "net_pay": 90857,
+        "deductions": 4814,
+        "created_at": "2023-10-08T08:06:37.729Z",
+        "updated_at": "2023-10-08T22:00:05.612Z",
+        "employee_id": "f500a52d-a31a-4b2d-b632-9a3a66bf4d74"
+      },
+      {
+        "id": "4b2aad2c-f7ab-4e79-a29f-6b5555b8df5e",
+        "pay_period_start": "2023-10-08T19:17:01.957Z",
+        "pay_period_end": "2023-10-08T12:13:10.323Z",
+        "gross_pay": 16412,
+        "net_pay": 45607,
+        "deductions": 60848,
+        "created_at": "2023-10-08T23:02:12.938Z",
+        "updated_at": "2023-10-08T17:39:56.504Z",
+        "employee_id": "f500a52d-a31a-4b2d-b632-9a3a66bf4d74"
+      },
+      {
+        "id": "e6e554b8-0c7b-4daf-9fe1-95598ef17663",
+        "pay_period_start": "2023-10-09T03:30:02.747Z",
+        "pay_period_end": "2023-10-08T08:04:03.981Z",
+        "gross_pay": 74344,
+        "net_pay": 67085,
+        "deductions": 25734,
+        "created_at": "2023-10-08T22:23:28.591Z",
+        "updated_at": "2023-10-08T12:38:12.319Z",
+        "employee_id": "05e86c6c-ea95-417e-a92f-4e985bf0c305"
+      },
+      {
+        "id": "bca0da7b-69d8-40de-bde8-151931ac05f1",
+        "pay_period_start": "2023-10-08T22:54:58.282Z",
+        "pay_period_end": "2023-10-08T20:20:46.112Z",
+        "gross_pay": 94116,
+        "net_pay": 1162,
+        "deductions": 25496,
+        "created_at": "2023-10-09T00:57:48.848Z",
+        "updated_at": "2023-10-09T05:32:41.230Z",
+        "employee_id": "05e86c6c-ea95-417e-a92f-4e985bf0c305"
+      }
+    ],
+    "hr_information": [
+      {
+        "id": "f422a0c0-5a94-482e-bbd6-fed747f437c3",
+        "information": "Employee Handbook",
+        "created_at": "2023-10-08T09:22:29.026Z",
+        "updated_at": "2023-10-08T13:30:52.316Z",
+        "employee_id": "c4cd3981-49c9-47cd-b780-5af0b0539c1d"
+      },
+      {
+        "id": "bd9174f3-7ec4-4c91-b9df-cebf07723b79",
+        "information": "Benefits Guide",
+        "created_at": "2023-10-08T16:43:34.455Z",
+        "updated_at": "2023-10-09T05:15:19.216Z",
+        "employee_id": "05e86c6c-ea95-417e-a92f-4e985bf0c305"
+      },
+      {
+        "id": "0dc192e6-f5f0-4493-bbb1-a84550522187",
+        "information": "Company Policies",
+        "created_at": "2023-10-09T04:23:43.128Z",
+        "updated_at": "2023-10-09T02:54:31.685Z",
+        "employee_id": "a7e41d1e-e6cd-4662-9ca7-8512e0c7ed5a"
+      },
+      {
+        "id": "09ff8526-67a5-41e3-a6b8-ca907fff09de",
+        "information": "Training Materials",
+        "created_at": "2023-10-08T11:00:39.715Z",
+        "updated_at": "2023-10-08T16:52:01.475Z",
+        "employee_id": "1b58efa8-212d-415e-a9b3-bb25b20c805a"
+      },
+      {
+        "id": "e8e39dba-b270-4237-9675-82e0bf20f17d",
+        "information": "Performance Evaluation",
+        "created_at": "2023-10-09T06:10:01.578Z",
+        "updated_at": "2023-10-09T02:46:27.021Z",
+        "employee_id": "f500a52d-a31a-4b2d-b632-9a3a66bf4d74"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4aa34161-bda1-45bc-b377-27df3bb029d0",
+        "email": "Jaunita70@roq.tech",
+        "firstName": "Kenyatta",
+        "lastName": "Gutmann-Robel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65220783",
+        "tenantId": null
+      },
+      {
+        "reference": "17b59f32-a34d-4eba-84a9-e972c821330e",
+        "email": "Drew12@roq.tech",
+        "firstName": "Linwood",
+        "lastName": "Tromp",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/855992",
+        "tenantId": null
+      },
+      {
+        "reference": "289aaeba-30d0-4d59-8546-dabfd8e655ee",
+        "email": "Hazel_Marquardt@roq.tech",
+        "firstName": "Kassandra",
+        "lastName": "Lubowitz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70633260",
+        "tenantId": null
+      },
+      {
+        "reference": "5fa77a28-44b5-4bce-a9e1-7444a341ba67",
+        "email": "Cassidy_Wunsch@roq.tech",
+        "firstName": "Leann",
+        "lastName": "Herzog",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1203.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fc500c3b-603b-49d7-a350-6393e88f0f5f",
+        "email": "Lorine.Bradtke@roq.tech",
+        "firstName": "Vickie",
+        "lastName": "Wunsch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/77.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "9a5fe6c4-cdbd-4dfc-b54a-ae50c910780e",
+        "position": "Software Engineer",
+        "hire_date": "2023-10-08T09:23:44.403Z",
+        "termination_date": "2023-10-08T17:16:51.048Z",
+        "salary": 11258,
+        "created_at": "2023-10-08T21:00:58.935Z",
+        "updated_at": "2023-10-08T22:57:42.485Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d3a8e63-88fa-49d3-865c-9990510b69dc",
+        "position": "Marketing Manager",
+        "hire_date": "2023-10-09T00:26:39.046Z",
+        "termination_date": "2023-10-08T13:12:29.778Z",
+        "salary": 68174,
+        "created_at": "2023-10-08T11:04:13.593Z",
+        "updated_at": "2023-10-08T21:09:38.729Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "964d9eef-4a6d-4a36-9c8b-77fb3f34918d",
+        "position": "Sales Representative",
+        "hire_date": "2023-10-08T20:34:15.971Z",
+        "termination_date": "2023-10-08T19:29:50.776Z",
+        "salary": 21423,
+        "created_at": "2023-10-09T04:30:54.818Z",
+        "updated_at": "2023-10-09T03:20:32.778Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d2aa88a5-49b2-4bdd-a110-102cb161de38",
+        "position": "Human Resources Specialist",
+        "hire_date": "2023-10-09T03:03:11.061Z",
+        "termination_date": "2023-10-09T03:27:58.918Z",
+        "salary": 13864,
+        "created_at": "2023-10-09T00:48:45.191Z",
+        "updated_at": "2023-10-08T16:41:37.809Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "89bef252-a15d-48e0-a902-c5716e96fdb8",
+        "position": "Financial Analyst",
+        "hire_date": "2023-10-08T15:25:15.142Z",
+        "termination_date": "2023-10-08T13:41:13.883Z",
+        "salary": 9265,
+        "created_at": "2023-10-08T11:35:20.004Z",
+        "updated_at": "2023-10-08T18:54:49.678Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "9e6d6182-f1d3-47b8-ba6e-6ca2c08c632f",
+        "start_date": "2023-10-08T17:29:20.157Z",
+        "end_date": "2023-10-09T04:58:53.622Z",
+        "status": "Approved",
+        "created_at": "2023-10-09T03:28:27.951Z",
+        "updated_at": "2023-10-08T21:27:51.725Z",
+        "employee_id": "89bef252-a15d-48e0-a902-c5716e96fdb8"
+      },
+      {
+        "id": "37948fdb-09e5-4cb1-b208-c90303ae2079",
+        "start_date": "2023-10-08T14:25:44.874Z",
+        "end_date": "2023-10-08T21:16:43.164Z",
+        "status": "Pending",
+        "created_at": "2023-10-08T18:41:53.015Z",
+        "updated_at": "2023-10-09T00:33:58.931Z",
+        "employee_id": "0d3a8e63-88fa-49d3-865c-9990510b69dc"
+      },
+      {
+        "id": "9f77f9b9-1361-4cd5-bcde-ddf622872812",
+        "start_date": "2023-10-08T15:51:22.594Z",
+        "end_date": "2023-10-08T13:53:39.639Z",
+        "status": "Cancelled",
+        "created_at": "2023-10-09T07:47:45.175Z",
+        "updated_at": "2023-10-08T11:36:34.985Z",
+        "employee_id": "d2aa88a5-49b2-4bdd-a110-102cb161de38"
+      },
+      {
+        "id": "12950441-0ee4-4b6e-b113-10e7883e37de",
+        "start_date": "2023-10-09T05:42:00.925Z",
+        "end_date": "2023-10-08T14:05:08.735Z",
+        "status": "Scheduled",
+        "created_at": "2023-10-08T11:00:47.164Z",
+        "updated_at": "2023-10-08T10:16:16.502Z",
+        "employee_id": "9a5fe6c4-cdbd-4dfc-b54a-ae50c910780e"
+      },
+      {
+        "id": "f3c6375a-0a6e-4873-b8c9-de7fe67bfc0d",
+        "start_date": "2023-10-08T12:43:51.426Z",
+        "end_date": "2023-10-08T12:46:30.935Z",
+        "status": "Denied",
+        "created_at": "2023-10-08T18:42:16.231Z",
+        "updated_at": "2023-10-08T16:45:47.728Z",
+        "employee_id": "89bef252-a15d-48e0-a902-c5716e96fdb8"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "12a7c472-5c7c-47a3-920b-286323d1d443",
+        "pay_period_start": "2023-10-08T14:29:38.423Z",
+        "pay_period_end": "2023-10-08T14:20:27.556Z",
+        "gross_pay": 61531,
+        "net_pay": 69491,
+        "deductions": 60168,
+        "created_at": "2023-10-09T00:47:52.333Z",
+        "updated_at": "2023-10-09T07:10:11.826Z",
+        "employee_id": "964d9eef-4a6d-4a36-9c8b-77fb3f34918d"
+      },
+      {
+        "id": "e1b95ab0-c06f-4b40-b4f2-9b4f7f8b258d",
+        "pay_period_start": "2023-10-09T05:41:59.555Z",
+        "pay_period_end": "2023-10-09T06:00:54.770Z",
+        "gross_pay": 26645,
+        "net_pay": 56423,
+        "deductions": 83395,
+        "created_at": "2023-10-08T22:44:24.335Z",
+        "updated_at": "2023-10-09T00:34:37.937Z",
+        "employee_id": "9a5fe6c4-cdbd-4dfc-b54a-ae50c910780e"
+      },
+      {
+        "id": "707ea301-2f15-40d6-bb53-66e4d1a0fd51",
+        "pay_period_start": "2023-10-08T22:21:53.379Z",
+        "pay_period_end": "2023-10-08T10:23:15.160Z",
+        "gross_pay": 16674,
+        "net_pay": 35159,
+        "deductions": 6256,
+        "created_at": "2023-10-08T17:38:59.305Z",
+        "updated_at": "2023-10-08T18:36:22.332Z",
+        "employee_id": "964d9eef-4a6d-4a36-9c8b-77fb3f34918d"
+      },
+      {
+        "id": "e3c276f0-9748-49b7-9e88-8e38b154f4f3",
+        "pay_period_start": "2023-10-08T16:17:53.271Z",
+        "pay_period_end": "2023-10-08T15:17:22.120Z",
+        "gross_pay": 60558,
+        "net_pay": 52529,
+        "deductions": 98731,
+        "created_at": "2023-10-08T15:59:27.485Z",
+        "updated_at": "2023-10-08T19:22:26.919Z",
+        "employee_id": "0d3a8e63-88fa-49d3-865c-9990510b69dc"
+      },
+      {
+        "id": "9a5fb4f3-579e-4ae0-83ab-c4d50fefdc3f",
+        "pay_period_start": "2023-10-08T09:01:05.325Z",
+        "pay_period_end": "2023-10-09T03:16:48.301Z",
+        "gross_pay": 34634,
+        "net_pay": 55725,
+        "deductions": 25014,
+        "created_at": "2023-10-08T08:36:47.917Z",
+        "updated_at": "2023-10-09T07:15:04.019Z",
+        "employee_id": "9a5fe6c4-cdbd-4dfc-b54a-ae50c910780e"
+      }
+    ],
+    "hr_information": [
+      {
+        "id": "5eb65f5a-afe3-479b-a301-d0af4c9e56d8",
+        "information": "Employee Handbook",
+        "created_at": "2023-10-09T05:02:05.419Z",
+        "updated_at": "2023-10-09T04:24:59.612Z",
+        "employee_id": "9a5fe6c4-cdbd-4dfc-b54a-ae50c910780e"
+      },
+      {
+        "id": "58ee1470-f514-4e13-9951-15183efff912",
+        "information": "Health and Safety Policy",
+        "created_at": "2023-10-08T19:34:02.506Z",
+        "updated_at": "2023-10-09T00:46:59.807Z",
+        "employee_id": "964d9eef-4a6d-4a36-9c8b-77fb3f34918d"
+      },
+      {
+        "id": "f0facd7b-4930-4c09-b316-40f3be51a601",
+        "information": "Code of Conduct",
+        "created_at": "2023-10-08T23:16:51.357Z",
+        "updated_at": "2023-10-09T04:12:43.790Z",
+        "employee_id": "89bef252-a15d-48e0-a902-c5716e96fdb8"
+      },
+      {
+        "id": "9d51a33b-4d48-487a-b6d6-971fb7a21f53",
+        "information": "Training Manual",
+        "created_at": "2023-10-08T10:20:28.692Z",
+        "updated_at": "2023-10-09T02:23:52.403Z",
+        "employee_id": "0d3a8e63-88fa-49d3-865c-9990510b69dc"
+      },
+      {
+        "id": "698067c2-5e39-4cdf-b0bf-53feb5032af6",
+        "information": "Performance Evaluation Form",
+        "created_at": "2023-10-09T04:43:11.222Z",
+        "updated_at": "2023-10-08T09:37:31.280Z",
+        "employee_id": "964d9eef-4a6d-4a36-9c8b-77fb3f34918d"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ec471958-f56c-4609-9279-dce2584c3264",
+        "email": "Marc8@roq.tech",
+        "firstName": "Jaylon",
+        "lastName": "Schimmel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1042.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ae5689a0-2915-453a-bcdb-22342d43f310",
+        "email": "Garnett64@roq.tech",
+        "firstName": "Cole",
+        "lastName": "Halvorson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/952674",
+        "tenantId": null
+      },
+      {
+        "reference": "34dc8d34-b459-4542-b58b-0ae15ae98b24",
+        "email": "Viviane.Mitchell74@roq.tech",
+        "firstName": "Marley",
+        "lastName": "Kerluke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/886.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d0da151a-5677-46c2-a6ac-0273eb9dc677",
+        "email": "Esta.Lemke@roq.tech",
+        "firstName": "Lavon",
+        "lastName": "Bartoletti",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51970342",
+        "tenantId": null
+      },
+      {
+        "reference": "ebc67ee8-db7a-4f67-9e6a-91cf5f1cca2b",
+        "email": "Annamarie64@roq.tech",
+        "firstName": "Lew",
+        "lastName": "Jaskolski-Homenick",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78090052",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "1d4e5d2d-1dd4-499c-a9e6-0c63c988c932",
+        "position": "Software Engineer",
+        "hire_date": "2023-10-09T00:17:55.719Z",
+        "termination_date": "2023-10-09T05:51:07.244Z",
+        "salary": 67853,
+        "created_at": "2023-10-08T19:45:33.749Z",
+        "updated_at": "2023-10-08T19:27:18.159Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "994c498c-0183-4317-b4f0-2af6cc6c5560",
+        "position": "Sales Manager",
+        "hire_date": "2023-10-08T16:26:56.850Z",
+        "termination_date": "2023-10-09T01:15:18.962Z",
+        "salary": 67988,
+        "created_at": "2023-10-08T09:20:30.028Z",
+        "updated_at": "2023-10-09T02:16:12.909Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a9df9353-b678-4d67-a8cb-395997fbd1ec",
+        "position": "Marketing Specialist",
+        "hire_date": "2023-10-08T18:06:37.055Z",
+        "termination_date": "2023-10-08T23:03:08.950Z",
+        "salary": 60884,
+        "created_at": "2023-10-08T10:47:56.726Z",
+        "updated_at": "2023-10-09T00:01:09.754Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e2212fa6-a7bb-41b9-9347-15b661da20ab",
+        "position": "HR Coordinator",
+        "hire_date": "2023-10-08T12:03:27.406Z",
+        "termination_date": "2023-10-08T19:21:29.449Z",
+        "salary": 14697,
+        "created_at": "2023-10-08T20:47:06.308Z",
+        "updated_at": "2023-10-08T19:38:23.552Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8e78f62b-ca4c-4dd4-be33-91f39b747d5e",
+        "position": "Operations Manager",
+        "hire_date": "2023-10-08T17:02:47.860Z",
+        "termination_date": "2023-10-09T02:39:51.347Z",
+        "salary": 65904,
+        "created_at": "2023-10-09T03:42:25.312Z",
+        "updated_at": "2023-10-08T12:50:25.981Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "28619f9b-eb27-447f-bac1-535f50e24c0c",
+        "start_date": "2023-10-08T13:43:43.086Z",
+        "end_date": "2023-10-09T06:08:50.638Z",
+        "status": "Approved",
+        "created_at": "2023-10-09T03:33:15.309Z",
+        "updated_at": "2023-10-09T06:35:23.974Z",
+        "employee_id": "1d4e5d2d-1dd4-499c-a9e6-0c63c988c932"
+      },
+      {
+        "id": "8cbeefd1-2a49-4c86-9197-a4aaed1b2b98",
+        "start_date": "2023-10-08T17:51:19.566Z",
+        "end_date": "2023-10-08T11:59:01.892Z",
+        "status": "Pending",
+        "created_at": "2023-10-08T13:15:55.518Z",
+        "updated_at": "2023-10-08T17:11:08.471Z",
+        "employee_id": "994c498c-0183-4317-b4f0-2af6cc6c5560"
+      },
+      {
+        "id": "e7296a04-f76b-41fc-b32e-93056f0b1c48",
+        "start_date": "2023-10-09T01:34:38.214Z",
+        "end_date": "2023-10-09T00:16:50.105Z",
+        "status": "Cancelled",
+        "created_at": "2023-10-09T05:51:59.375Z",
+        "updated_at": "2023-10-08T11:33:27.478Z",
+        "employee_id": "a9df9353-b678-4d67-a8cb-395997fbd1ec"
+      },
+      {
+        "id": "5dd885a1-3ce9-4b7b-ad28-5f78ed498c91",
+        "start_date": "2023-10-08T16:07:32.492Z",
+        "end_date": "2023-10-09T02:29:42.855Z",
+        "status": "Scheduled",
+        "created_at": "2023-10-09T04:44:29.996Z",
+        "updated_at": "2023-10-08T12:36:54.739Z",
+        "employee_id": "994c498c-0183-4317-b4f0-2af6cc6c5560"
+      },
+      {
+        "id": "6136886f-ee36-41b4-a200-bc1e8f98c0a2",
+        "start_date": "2023-10-08T17:43:10.449Z",
+        "end_date": "2023-10-08T12:13:42.367Z",
+        "status": "Rejected",
+        "created_at": "2023-10-09T06:53:35.423Z",
+        "updated_at": "2023-10-08T08:03:14.603Z",
+        "employee_id": "a9df9353-b678-4d67-a8cb-395997fbd1ec"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "1847eb47-3258-4422-99f2-fee3edb34b4a",
+        "pay_period_start": "2023-10-08T14:42:07.406Z",
+        "pay_period_end": "2023-10-08T11:34:42.894Z",
+        "gross_pay": 9011,
+        "net_pay": 57652,
+        "deductions": 70977,
+        "created_at": "2023-10-08T21:36:37.260Z",
+        "updated_at": "2023-10-08T20:04:32.389Z",
+        "employee_id": "a9df9353-b678-4d67-a8cb-395997fbd1ec"
+      },
+      {
+        "id": "eec40ce4-46e3-4a18-9e82-472e24edc373",
+        "pay_period_start": "2023-10-08T08:32:39.872Z",
+        "pay_period_end": "2023-10-08T11:50:48.269Z",
+        "gross_pay": 58224,
+        "net_pay": 58862,
+        "deductions": 36943,
+        "created_at": "2023-10-09T04:45:40.121Z",
+        "updated_at": "2023-10-08T15:05:31.140Z",
+        "employee_id": "e2212fa6-a7bb-41b9-9347-15b661da20ab"
+      },
+      {
+        "id": "7493a9f5-176c-4807-86f1-4021df480911",
+        "pay_period_start": "2023-10-08T22:01:20.349Z",
+        "pay_period_end": "2023-10-08T12:08:56.300Z",
+        "gross_pay": 34315,
+        "net_pay": 97483,
+        "deductions": 61519,
+        "created_at": "2023-10-09T04:14:26.326Z",
+        "updated_at": "2023-10-08T19:03:52.434Z",
+        "employee_id": "994c498c-0183-4317-b4f0-2af6cc6c5560"
+      },
+      {
+        "id": "995f691e-0498-4681-911a-cebd731a8fad",
+        "pay_period_start": "2023-10-08T12:34:44.484Z",
+        "pay_period_end": "2023-10-09T01:01:16.220Z",
+        "gross_pay": 6241,
+        "net_pay": 86234,
+        "deductions": 79911,
+        "created_at": "2023-10-09T00:24:56.239Z",
+        "updated_at": "2023-10-08T14:28:04.616Z",
+        "employee_id": "a9df9353-b678-4d67-a8cb-395997fbd1ec"
+      },
+      {
+        "id": "5ce464a2-17c0-42dd-abbc-a63916db9f8b",
+        "pay_period_start": "2023-10-08T10:22:23.346Z",
+        "pay_period_end": "2023-10-08T22:46:10.282Z",
+        "gross_pay": 66481,
+        "net_pay": 70197,
+        "deductions": 45415,
+        "created_at": "2023-10-09T01:27:01.117Z",
+        "updated_at": "2023-10-09T04:08:53.298Z",
+        "employee_id": "e2212fa6-a7bb-41b9-9347-15b661da20ab"
+      }
+    ],
+    "hr_information": [
+      {
+        "id": "32251a52-74c6-412b-9176-06f24844f66d",
+        "information": "Employee Handbook",
+        "created_at": "2023-10-09T03:51:55.321Z",
+        "updated_at": "2023-10-09T05:43:43.070Z",
+        "employee_id": "8e78f62b-ca4c-4dd4-be33-91f39b747d5e"
+      },
+      {
+        "id": "a09ed42b-5435-40ea-8041-83026a3f29f1",
+        "information": "Benefits Package",
+        "created_at": "2023-10-08T15:58:44.362Z",
+        "updated_at": "2023-10-08T12:39:13.627Z",
+        "employee_id": "e2212fa6-a7bb-41b9-9347-15b661da20ab"
+      },
+      {
+        "id": "721e4392-6fa6-4a8d-80b8-de85e6b51d59",
+        "information": "Code of Conduct",
+        "created_at": "2023-10-09T05:53:29.836Z",
+        "updated_at": "2023-10-09T02:04:40.691Z",
+        "employee_id": "994c498c-0183-4317-b4f0-2af6cc6c5560"
+      },
+      {
+        "id": "dcd97100-d800-436f-a258-1296063980ef",
+        "information": "Training Manual",
+        "created_at": "2023-10-08T23:58:59.273Z",
+        "updated_at": "2023-10-08T19:53:45.071Z",
+        "employee_id": "1d4e5d2d-1dd4-499c-a9e6-0c63c988c932"
+      },
+      {
+        "id": "2b0c6680-d8d6-488d-aadf-5c84e730110f",
+        "information": "Performance Evaluation",
+        "created_at": "2023-10-08T14:59:53.081Z",
+        "updated_at": "2023-10-08T18:34:56.490Z",
+        "employee_id": "e2212fa6-a7bb-41b9-9347-15b661da20ab"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4e437b5d-25c5-4e1a-9282-e20ebf9d4abd",
+        "email": "Bertha.Klocko@roq.tech",
+        "firstName": "Isidro",
+        "lastName": "Goldner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52709134",
+        "tenantId": null
+      },
+      {
+        "reference": "4fc446ef-960d-4042-b773-5093e3998dcf",
+        "email": "June.Balistreri@roq.tech",
+        "firstName": "Kareem",
+        "lastName": "Walsh",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/707.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3bea6619-f68a-4408-88e1-d4ca24b31fee",
+        "email": "Tierra.Hahn@roq.tech",
+        "firstName": "Shanny",
+        "lastName": "Hintz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22400972",
+        "tenantId": null
+      },
+      {
+        "reference": "de4755a5-3b20-480d-a955-d0c9672047c7",
+        "email": "Allan.Reilly@roq.tech",
+        "firstName": "Guy",
+        "lastName": "Parisian",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/129.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dd6dfdef-d141-4991-8463-8e54a65e42d1",
+        "email": "Lempi11@roq.tech",
+        "firstName": "Ellis",
+        "lastName": "Langworth",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78297144",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "8bc02b5f-c45f-41f6-9c63-f82ad1eab1bc",
+        "position": "Manager",
+        "hire_date": "2023-10-08T12:06:00.055Z",
+        "termination_date": "2023-10-08T12:04:02.044Z",
+        "salary": 10958,
+        "created_at": "2023-10-08T20:34:27.013Z",
+        "updated_at": "2023-10-08T08:03:01.433Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8be10097-d2ac-47ae-b882-ca2a76458607",
+        "position": "Engineer",
+        "hire_date": "2023-10-08T22:10:05.543Z",
+        "termination_date": "2023-10-08T23:04:51.126Z",
+        "salary": 32911,
+        "created_at": "2023-10-09T02:04:41.152Z",
+        "updated_at": "2023-10-08T22:22:48.149Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3733448e-3482-4a8f-8c00-2862738e0b69",
+        "position": "Analyst",
+        "hire_date": "2023-10-09T06:52:54.268Z",
+        "termination_date": "2023-10-08T22:32:22.262Z",
+        "salary": 21063,
+        "created_at": "2023-10-09T01:12:01.987Z",
+        "updated_at": "2023-10-08T13:24:47.233Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2d5fe708-e116-4649-a1d0-308e5890991a",
+        "position": "Designer",
+        "hire_date": "2023-10-09T01:38:24.078Z",
+        "termination_date": "2023-10-08T10:02:15.340Z",
+        "salary": 94040,
+        "created_at": "2023-10-08T18:31:01.150Z",
+        "updated_at": "2023-10-08T11:33:31.567Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f2ba507a-23ba-429d-8e28-9d393aecbe7e",
+        "position": "Developer",
+        "hire_date": "2023-10-09T05:49:07.968Z",
+        "termination_date": "2023-10-09T03:26:12.735Z",
+        "salary": 78649,
+        "created_at": "2023-10-08T12:16:54.844Z",
+        "updated_at": "2023-10-08T19:38:27.602Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "ab1fab07-fb32-4bfe-848b-335b8f76ba3e",
+        "start_date": "2023-10-09T06:15:51.014Z",
+        "end_date": "2023-10-08T12:33:33.439Z",
+        "status": "Approved",
+        "created_at": "2023-10-08T08:40:39.257Z",
+        "updated_at": "2023-10-09T03:45:44.028Z",
+        "employee_id": "f2ba507a-23ba-429d-8e28-9d393aecbe7e"
+      },
+      {
+        "id": "59d6aab8-7034-49ce-a8fa-ece5464c6267",
+        "start_date": "2023-10-08T13:29:27.082Z",
+        "end_date": "2023-10-08T19:31:02.437Z",
+        "status": "Pending",
+        "created_at": "2023-10-09T02:03:26.159Z",
+        "updated_at": "2023-10-09T00:33:31.829Z",
+        "employee_id": "f2ba507a-23ba-429d-8e28-9d393aecbe7e"
+      },
+      {
+        "id": "340edf35-4250-4911-8268-92fa0dc64422",
+        "start_date": "2023-10-09T03:44:36.773Z",
+        "end_date": "2023-10-09T02:27:20.338Z",
+        "status": "Cancelled",
+        "created_at": "2023-10-08T12:33:40.095Z",
+        "updated_at": "2023-10-08T15:13:03.242Z",
+        "employee_id": "2d5fe708-e116-4649-a1d0-308e5890991a"
+      },
+      {
+        "id": "93433a41-65ef-4f71-9ba9-a43868378a4b",
+        "start_date": "2023-10-09T05:19:52.646Z",
+        "end_date": "2023-10-08T12:26:20.477Z",
+        "status": "Scheduled",
+        "created_at": "2023-10-09T07:44:15.240Z",
+        "updated_at": "2023-10-09T05:37:39.736Z",
+        "employee_id": "8be10097-d2ac-47ae-b882-ca2a76458607"
+      },
+      {
+        "id": "e1394d9c-1089-4c80-8013-06acc4aa51ce",
+        "start_date": "2023-10-08T09:17:21.730Z",
+        "end_date": "2023-10-08T10:29:58.506Z",
+        "status": "Completed",
+        "created_at": "2023-10-09T07:32:00.853Z",
+        "updated_at": "2023-10-09T02:09:38.400Z",
+        "employee_id": "2d5fe708-e116-4649-a1d0-308e5890991a"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "202b76a2-629f-44c8-9e78-5b8f05b888f0",
+        "pay_period_start": "2023-10-08T08:07:16.631Z",
+        "pay_period_end": "2023-10-08T08:12:29.969Z",
+        "gross_pay": 33881,
+        "net_pay": 98742,
+        "deductions": 41192,
+        "created_at": "2023-10-08T22:06:25.194Z",
+        "updated_at": "2023-10-09T04:31:47.499Z",
+        "employee_id": "f2ba507a-23ba-429d-8e28-9d393aecbe7e"
+      },
+      {
+        "id": "c1354046-17ac-437c-a9da-bc50efc62d6a",
+        "pay_period_start": "2023-10-08T10:17:21.559Z",
+        "pay_period_end": "2023-10-08T19:29:36.006Z",
+        "gross_pay": 91,
+        "net_pay": 27744,
+        "deductions": 1619,
+        "created_at": "2023-10-09T04:53:09.852Z",
+        "updated_at": "2023-10-09T02:48:45.353Z",
+        "employee_id": "8bc02b5f-c45f-41f6-9c63-f82ad1eab1bc"
+      },
+      {
+        "id": "7f8ea92c-894d-45c7-9496-636b411731cb",
+        "pay_period_start": "2023-10-09T00:09:13.059Z",
+        "pay_period_end": "2023-10-09T05:09:45.050Z",
+        "gross_pay": 19683,
+        "net_pay": 74444,
+        "deductions": 99536,
+        "created_at": "2023-10-08T15:04:17.757Z",
+        "updated_at": "2023-10-08T08:16:25.088Z",
+        "employee_id": "8be10097-d2ac-47ae-b882-ca2a76458607"
+      },
+      {
+        "id": "bad8e848-f214-441e-bf43-917bbc2a6876",
+        "pay_period_start": "2023-10-09T00:30:10.690Z",
+        "pay_period_end": "2023-10-08T19:56:46.457Z",
+        "gross_pay": 17993,
+        "net_pay": 98977,
+        "deductions": 2987,
+        "created_at": "2023-10-08T16:46:32.859Z",
+        "updated_at": "2023-10-08T08:04:53.956Z",
+        "employee_id": "8be10097-d2ac-47ae-b882-ca2a76458607"
+      },
+      {
+        "id": "bb646fd9-d6e6-4a5b-bfed-22fadec8340f",
+        "pay_period_start": "2023-10-09T01:50:06.310Z",
+        "pay_period_end": "2023-10-08T23:47:49.883Z",
+        "gross_pay": 23735,
+        "net_pay": 64364,
+        "deductions": 75043,
+        "created_at": "2023-10-08T18:27:02.103Z",
+        "updated_at": "2023-10-08T13:00:28.728Z",
+        "employee_id": "2d5fe708-e116-4649-a1d0-308e5890991a"
+      }
+    ],
+    "hr_information": [
+      {
+        "id": "f78fc7d2-cfa6-4860-91b7-11348a85b6bd",
+        "information": "Employee Handbook",
+        "created_at": "2023-10-09T07:27:20.000Z",
+        "updated_at": "2023-10-08T08:59:58.099Z",
+        "employee_id": "8be10097-d2ac-47ae-b882-ca2a76458607"
+      },
+      {
+        "id": "b77621e2-697d-48bb-b5f4-b353ff9bd952",
+        "information": "Benefits Package",
+        "created_at": "2023-10-08T20:57:15.846Z",
+        "updated_at": "2023-10-08T12:24:29.363Z",
+        "employee_id": "8bc02b5f-c45f-41f6-9c63-f82ad1eab1bc"
+      },
+      {
+        "id": "75f13b2e-2010-46bf-b1d1-f2e2f9fe4ae1",
+        "information": "Training Programs",
+        "created_at": "2023-10-08T18:33:56.153Z",
+        "updated_at": "2023-10-08T09:17:18.694Z",
+        "employee_id": "8be10097-d2ac-47ae-b882-ca2a76458607"
+      },
+      {
+        "id": "40df5015-50e5-4046-8908-6f8096629664",
+        "information": "Performance Evaluation",
+        "created_at": "2023-10-08T11:46:34.646Z",
+        "updated_at": "2023-10-08T10:24:42.045Z",
+        "employee_id": "3733448e-3482-4a8f-8c00-2862738e0b69"
+      },
+      {
+        "id": "66bc3d94-7657-420e-9813-66859f5bf736",
+        "information": "Company Policies",
+        "created_at": "2023-10-08T22:23:51.604Z",
+        "updated_at": "2023-10-09T03:58:24.185Z",
+        "employee_id": "8bc02b5f-c45f-41f6-9c63-f82ad1eab1bc"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4ac2c4ef-747f-486b-b865-739e8f0bca17",
+        "email": "Jaeden40@roq.tech",
+        "firstName": "Gretchen",
+        "lastName": "Weimann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78746642",
+        "tenantId": null
+      },
+      {
+        "reference": "0036c814-cf29-4ca0-8d53-6f134a1ab65f",
+        "email": "Seth.Blick@roq.tech",
+        "firstName": "Zola",
+        "lastName": "Hessel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13706792",
+        "tenantId": null
+      },
+      {
+        "reference": "be204f38-810a-411e-8807-d6366d396aef",
+        "email": "Johanna_Bauch@roq.tech",
+        "firstName": "Lamar",
+        "lastName": "Rau",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/756.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "695ece2f-8ec8-4b59-bacc-57a3e90d932b",
+        "email": "Courtney_Morissette@roq.tech",
+        "firstName": "Arno",
+        "lastName": "Armstrong",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/823.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "504d7f96-e89d-40b2-84b0-c60c562593e7",
+        "email": "Edward.Ryan75@roq.tech",
+        "firstName": "Leif",
+        "lastName": "Pollich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61982719",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "bc623f1c-4c10-43d1-b192-1dddba0ce04f",
+        "position": "Software Engineer",
+        "hire_date": "2023-10-09T02:02:09.209Z",
+        "termination_date": "2023-10-08T21:46:45.880Z",
+        "salary": 49190,
+        "created_at": "2023-10-08T22:14:27.388Z",
+        "updated_at": "2023-10-08T09:36:44.317Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9140e57f-6451-4f48-992d-0e971fa9a7c7",
+        "position": "Marketing Specialist",
+        "hire_date": "2023-10-08T16:59:30.416Z",
+        "termination_date": "2023-10-09T04:24:55.417Z",
+        "salary": 15639,
+        "created_at": "2023-10-09T00:26:00.962Z",
+        "updated_at": "2023-10-08T11:14:42.566Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8204240a-d2ef-400e-8d7c-c6651d2abadc",
+        "position": "HR Manager",
+        "hire_date": "2023-10-09T06:07:30.414Z",
+        "termination_date": "2023-10-09T06:39:31.840Z",
+        "salary": 95527,
+        "created_at": "2023-10-08T22:02:41.461Z",
+        "updated_at": "2023-10-08T23:45:50.718Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c374dac1-ef09-43bc-9b51-a890dee6bfe1",
+        "position": "Sales Representative",
+        "hire_date": "2023-10-08T16:59:11.705Z",
+        "termination_date": "2023-10-09T01:15:18.869Z",
+        "salary": 46892,
+        "created_at": "2023-10-08T22:42:25.775Z",
+        "updated_at": "2023-10-08T11:45:17.363Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "09ea6bc6-ab81-400a-b1c4-b98b28dddfa9",
+        "position": "Operations Coordinator",
+        "hire_date": "2023-10-08T14:44:44.732Z",
+        "termination_date": "2023-10-08T08:33:39.172Z",
+        "salary": 80078,
+        "created_at": "2023-10-09T02:08:58.072Z",
+        "updated_at": "2023-10-08T17:35:39.727Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "e0199619-1a66-41a1-a8cd-99d2fd22532e",
+        "start_date": "2023-10-09T07:47:04.617Z",
+        "end_date": "2023-10-08T09:06:35.571Z",
+        "status": "Approved",
+        "created_at": "2023-10-08T09:30:42.673Z",
+        "updated_at": "2023-10-08T19:15:56.789Z",
+        "employee_id": "bc623f1c-4c10-43d1-b192-1dddba0ce04f"
+      },
+      {
+        "id": "657d1761-062b-4833-b4eb-a88dc2b4e5c1",
+        "start_date": "2023-10-08T20:04:38.929Z",
+        "end_date": "2023-10-09T05:39:58.697Z",
+        "status": "Pending",
+        "created_at": "2023-10-08T13:59:35.493Z",
+        "updated_at": "2023-10-09T00:27:19.330Z",
+        "employee_id": "bc623f1c-4c10-43d1-b192-1dddba0ce04f"
+      },
+      {
+        "id": "9b75cccf-c34d-4fdf-b87d-0dbdd653fb21",
+        "start_date": "2023-10-08T18:07:10.932Z",
+        "end_date": "2023-10-08T15:36:16.518Z",
+        "status": "Cancelled",
+        "created_at": "2023-10-09T06:37:54.515Z",
+        "updated_at": "2023-10-08T17:01:14.927Z",
+        "employee_id": "09ea6bc6-ab81-400a-b1c4-b98b28dddfa9"
+      },
+      {
+        "id": "35ac625b-6907-4a2d-b34f-44dd5bbb187c",
+        "start_date": "2023-10-09T03:51:34.341Z",
+        "end_date": "2023-10-09T00:59:54.974Z",
+        "status": "Scheduled",
+        "created_at": "2023-10-08T15:21:21.765Z",
+        "updated_at": "2023-10-09T06:37:57.414Z",
+        "employee_id": "8204240a-d2ef-400e-8d7c-c6651d2abadc"
+      },
+      {
+        "id": "ed5bf452-2f80-4b10-8e96-4039c9e1e55c",
+        "start_date": "2023-10-08T19:49:21.745Z",
+        "end_date": "2023-10-08T23:24:36.685Z",
+        "status": "In Progress",
+        "created_at": "2023-10-09T00:19:28.112Z",
+        "updated_at": "2023-10-08T10:21:32.706Z",
+        "employee_id": "8204240a-d2ef-400e-8d7c-c6651d2abadc"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "22c503fe-d15f-4a84-9c79-83d4f780724f",
+        "pay_period_start": "2023-10-08T15:44:42.831Z",
+        "pay_period_end": "2023-10-09T06:58:18.429Z",
+        "gross_pay": 31188,
+        "net_pay": 70267,
+        "deductions": 22770,
+        "created_at": "2023-10-08T12:26:33.968Z",
+        "updated_at": "2023-10-08T10:39:15.271Z",
+        "employee_id": "bc623f1c-4c10-43d1-b192-1dddba0ce04f"
+      },
+      {
+        "id": "b42a3781-c20c-4594-925f-a95b907a5261",
+        "pay_period_start": "2023-10-09T01:26:04.833Z",
+        "pay_period_end": "2023-10-09T03:18:49.055Z",
+        "gross_pay": 33438,
+        "net_pay": 39315,
+        "deductions": 44952,
+        "created_at": "2023-10-08T16:20:24.528Z",
+        "updated_at": "2023-10-08T17:05:57.865Z",
+        "employee_id": "09ea6bc6-ab81-400a-b1c4-b98b28dddfa9"
+      },
+      {
+        "id": "8eb7235d-379c-4b25-adf0-f24e049ad3b8",
+        "pay_period_start": "2023-10-08T09:35:26.472Z",
+        "pay_period_end": "2023-10-08T13:41:12.974Z",
+        "gross_pay": 18173,
+        "net_pay": 18673,
+        "deductions": 3271,
+        "created_at": "2023-10-09T00:17:34.867Z",
+        "updated_at": "2023-10-09T06:14:16.146Z",
+        "employee_id": "c374dac1-ef09-43bc-9b51-a890dee6bfe1"
+      },
+      {
+        "id": "59e66221-1e05-4568-b0e4-5518f8e490f4",
+        "pay_period_start": "2023-10-09T02:57:33.930Z",
+        "pay_period_end": "2023-10-08T12:26:56.162Z",
+        "gross_pay": 38107,
+        "net_pay": 11792,
+        "deductions": 38181,
+        "created_at": "2023-10-08T09:44:23.845Z",
+        "updated_at": "2023-10-09T00:57:48.152Z",
+        "employee_id": "9140e57f-6451-4f48-992d-0e971fa9a7c7"
+      },
+      {
+        "id": "a975b047-6611-4a4f-adf8-7ef7ebe6fa31",
+        "pay_period_start": "2023-10-09T06:12:11.087Z",
+        "pay_period_end": "2023-10-08T18:51:33.568Z",
+        "gross_pay": 47984,
+        "net_pay": 75831,
+        "deductions": 69218,
+        "created_at": "2023-10-08T18:00:45.577Z",
+        "updated_at": "2023-10-08T15:26:30.109Z",
+        "employee_id": "bc623f1c-4c10-43d1-b192-1dddba0ce04f"
+      }
+    ],
+    "hr_information": [
+      {
+        "id": "91a18e15-51f5-48ae-8be7-1a3888c86dc6",
+        "information": "Employee Handbook",
+        "created_at": "2023-10-09T02:17:35.072Z",
+        "updated_at": "2023-10-09T01:39:13.161Z",
+        "employee_id": "09ea6bc6-ab81-400a-b1c4-b98b28dddfa9"
+      },
+      {
+        "id": "f3e0f116-f11a-4030-b829-b82838218325",
+        "information": "Benefits Package",
+        "created_at": "2023-10-08T14:58:43.778Z",
+        "updated_at": "2023-10-09T06:50:18.891Z",
+        "employee_id": "c374dac1-ef09-43bc-9b51-a890dee6bfe1"
+      },
+      {
+        "id": "89fec57e-59eb-42f8-b9b0-d23b1c124a85",
+        "information": "Training Manual",
+        "created_at": "2023-10-08T19:12:49.934Z",
+        "updated_at": "2023-10-08T17:22:13.843Z",
+        "employee_id": "bc623f1c-4c10-43d1-b192-1dddba0ce04f"
+      },
+      {
+        "id": "d0120afd-91d3-4829-a140-2f6e478ec312",
+        "information": "Company Policies",
+        "created_at": "2023-10-09T02:47:20.765Z",
+        "updated_at": "2023-10-08T16:52:51.149Z",
+        "employee_id": "9140e57f-6451-4f48-992d-0e971fa9a7c7"
+      },
+      {
+        "id": "f75dbdc6-99f7-4b26-a074-7b31af1e2ea5",
+        "information": "Performance Evaluation",
+        "created_at": "2023-10-08T15:58:54.471Z",
+        "updated_at": "2023-10-09T04:43:11.182Z",
+        "employee_id": "8204240a-d2ef-400e-8d7c-c6651d2abadc"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "47ef8d91-1efa-4ccd-b831-5513f409a962",
+        "email": "Willa_Brown@roq.tech",
+        "firstName": "Arlo",
+        "lastName": "Gutmann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39872468",
+        "tenantId": null
+      },
+      {
+        "reference": "bd7f07f8-224f-43d7-98ec-a8156b2c8ba3",
+        "email": "Katheryn.Mosciski75@roq.tech",
+        "firstName": "Weston",
+        "lastName": "Hartmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/895.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "27de2b76-ed9e-4c52-b4fc-8952e0388256",
+        "email": "Devonte_Harris@roq.tech",
+        "firstName": "Trent",
+        "lastName": "Reilly",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/987.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "385a3045-a5b6-48f5-9a7c-06faf654332e",
+        "email": "Sven_Heaney@roq.tech",
+        "firstName": "Devin",
+        "lastName": "Haley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/655.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b9ce582d-b4e2-42da-82d5-3cc1f3bd5468",
+        "email": "Linda.Ernser39@roq.tech",
+        "firstName": "Eloy",
+        "lastName": "Spinka",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40440683",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "f9041ef2-4c57-4add-9d91-55e97d902f92",
+        "position": "Software Engineer",
+        "hire_date": "2023-10-08T09:16:02.728Z",
+        "termination_date": "2023-10-09T03:06:47.385Z",
+        "salary": 82070,
+        "created_at": "2023-10-08T08:09:48.693Z",
+        "updated_at": "2023-10-09T05:34:16.053Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "be449e7e-c842-4b65-9b3a-4aeeca7921f1",
+        "position": "Marketing Manager",
+        "hire_date": "2023-10-09T01:00:46.911Z",
+        "termination_date": "2023-10-08T16:33:32.346Z",
+        "salary": 7658,
+        "created_at": "2023-10-08T09:11:19.277Z",
+        "updated_at": "2023-10-08T14:06:28.217Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "55fd86be-401d-4ff4-8f27-4872fb0ad70d",
+        "position": "Sales Executive",
+        "hire_date": "2023-10-08T22:31:38.468Z",
+        "termination_date": "2023-10-09T03:26:07.073Z",
+        "salary": 47432,
+        "created_at": "2023-10-09T04:15:41.701Z",
+        "updated_at": "2023-10-08T20:13:10.117Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d0985434-af79-4175-be53-09473e0c4021",
+        "position": "HR Specialist",
+        "hire_date": "2023-10-08T20:05:16.172Z",
+        "termination_date": "2023-10-09T04:00:00.059Z",
+        "salary": 11326,
+        "created_at": "2023-10-09T05:41:12.081Z",
+        "updated_at": "2023-10-09T05:25:19.470Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cea549e0-646f-47d8-ae78-2f718e6b73e7",
+        "position": "Operations Analyst",
+        "hire_date": "2023-10-09T00:43:31.057Z",
+        "termination_date": "2023-10-08T16:30:55.033Z",
+        "salary": 86071,
+        "created_at": "2023-10-08T16:45:50.863Z",
+        "updated_at": "2023-10-08T16:47:08.647Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "e1fd96ae-7a71-4049-80f8-20476cfdb9ed",
+        "start_date": "2023-10-08T18:34:27.842Z",
+        "end_date": "2023-10-09T03:35:02.270Z",
+        "status": "Approved",
+        "created_at": "2023-10-08T09:57:07.564Z",
+        "updated_at": "2023-10-09T00:37:04.291Z",
+        "employee_id": "d0985434-af79-4175-be53-09473e0c4021"
+      },
+      {
+        "id": "6f27254a-ad5f-4268-81e9-0db91ced7fc3",
+        "start_date": "2023-10-08T20:23:35.332Z",
+        "end_date": "2023-10-08T10:53:40.579Z",
+        "status": "Pending",
+        "created_at": "2023-10-08T08:30:34.770Z",
+        "updated_at": "2023-10-08T21:17:59.678Z",
+        "employee_id": "55fd86be-401d-4ff4-8f27-4872fb0ad70d"
+      },
+      {
+        "id": "1c70c2f6-97c8-4b57-a745-deeffbefd5f9",
+        "start_date": "2023-10-08T19:04:39.539Z",
+        "end_date": "2023-10-08T19:08:29.213Z",
+        "status": "Cancelled",
+        "created_at": "2023-10-08T17:32:47.126Z",
+        "updated_at": "2023-10-09T05:48:45.014Z",
+        "employee_id": "be449e7e-c842-4b65-9b3a-4aeeca7921f1"
+      },
+      {
+        "id": "febb5a06-dea0-4224-b3fc-82939f770323",
+        "start_date": "2023-10-08T13:46:09.664Z",
+        "end_date": "2023-10-08T22:01:46.772Z",
+        "status": "Scheduled",
+        "created_at": "2023-10-08T21:47:58.546Z",
+        "updated_at": "2023-10-08T19:37:25.035Z",
+        "employee_id": "be449e7e-c842-4b65-9b3a-4aeeca7921f1"
+      },
+      {
+        "id": "c8a02f40-300b-466f-8741-8d7f2efec2ce",
+        "start_date": "2023-10-08T16:40:50.886Z",
+        "end_date": "2023-10-09T00:31:31.150Z",
+        "status": "Rejected",
+        "created_at": "2023-10-09T04:56:11.473Z",
+        "updated_at": "2023-10-08T10:20:53.248Z",
+        "employee_id": "cea549e0-646f-47d8-ae78-2f718e6b73e7"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "b2117df6-af62-4dd5-bd42-7e5d1b62bddf",
+        "pay_period_start": "2023-10-09T06:32:00.408Z",
+        "pay_period_end": "2023-10-08T10:54:34.542Z",
+        "gross_pay": 3194,
+        "net_pay": 59101,
+        "deductions": 23603,
+        "created_at": "2023-10-08T16:31:18.444Z",
+        "updated_at": "2023-10-08T10:21:40.936Z",
+        "employee_id": "cea549e0-646f-47d8-ae78-2f718e6b73e7"
+      },
+      {
+        "id": "5b0572bd-7dcb-4e87-8d8f-a5666c1a1f97",
+        "pay_period_start": "2023-10-08T09:59:01.539Z",
+        "pay_period_end": "2023-10-08T21:09:40.453Z",
+        "gross_pay": 318,
+        "net_pay": 76438,
+        "deductions": 46378,
+        "created_at": "2023-10-09T04:46:42.756Z",
+        "updated_at": "2023-10-08T15:56:58.247Z",
+        "employee_id": "d0985434-af79-4175-be53-09473e0c4021"
+      },
+      {
+        "id": "40e8d143-96dd-4503-9b2f-abdcae8bf065",
+        "pay_period_start": "2023-10-08T12:44:47.982Z",
+        "pay_period_end": "2023-10-08T11:40:12.021Z",
+        "gross_pay": 75276,
+        "net_pay": 22603,
+        "deductions": 32243,
+        "created_at": "2023-10-08T19:44:49.099Z",
+        "updated_at": "2023-10-08T12:39:12.163Z",
+        "employee_id": "f9041ef2-4c57-4add-9d91-55e97d902f92"
+      },
+      {
+        "id": "3e370888-6e69-4ce9-815e-df99fe8fb401",
+        "pay_period_start": "2023-10-08T21:28:11.331Z",
+        "pay_period_end": "2023-10-08T16:59:37.592Z",
+        "gross_pay": 5026,
+        "net_pay": 98748,
+        "deductions": 10040,
+        "created_at": "2023-10-08T11:58:10.077Z",
+        "updated_at": "2023-10-08T14:55:23.700Z",
+        "employee_id": "cea549e0-646f-47d8-ae78-2f718e6b73e7"
+      },
+      {
+        "id": "f8d4cce6-a557-4a17-a489-912bde80cdd7",
+        "pay_period_start": "2023-10-08T13:41:46.846Z",
+        "pay_period_end": "2023-10-08T12:28:27.266Z",
+        "gross_pay": 88291,
+        "net_pay": 3883,
+        "deductions": 97699,
+        "created_at": "2023-10-08T09:15:01.251Z",
+        "updated_at": "2023-10-08T08:12:25.207Z",
+        "employee_id": "55fd86be-401d-4ff4-8f27-4872fb0ad70d"
+      }
+    ],
+    "hr_information": [
+      {
+        "id": "73bf1417-3df2-490b-adc7-7cdabafdbd3f",
+        "information": "Employee Handbook",
+        "created_at": "2023-10-08T16:40:02.681Z",
+        "updated_at": "2023-10-08T18:52:40.675Z",
+        "employee_id": "cea549e0-646f-47d8-ae78-2f718e6b73e7"
+      },
+      {
+        "id": "3d4b87b5-6433-406e-addd-e4f23f9d7618",
+        "information": "Benefits Package",
+        "created_at": "2023-10-08T14:09:50.964Z",
+        "updated_at": "2023-10-09T00:01:16.631Z",
+        "employee_id": "be449e7e-c842-4b65-9b3a-4aeeca7921f1"
+      },
+      {
+        "id": "c69cb62b-3cac-4105-971a-5a0a9365c2ef",
+        "information": "Training Programs",
+        "created_at": "2023-10-08T15:36:59.311Z",
+        "updated_at": "2023-10-08T19:13:49.021Z",
+        "employee_id": "f9041ef2-4c57-4add-9d91-55e97d902f92"
+      },
+      {
+        "id": "24c28a95-7dfc-4f0b-9fc7-5173e670a9a7",
+        "information": "Performance Evaluation",
+        "created_at": "2023-10-09T07:21:24.272Z",
+        "updated_at": "2023-10-08T11:13:37.102Z",
+        "employee_id": "be449e7e-c842-4b65-9b3a-4aeeca7921f1"
+      },
+      {
+        "id": "4c9ef574-9df1-4188-9739-5ab7365a2a57",
+        "information": "Company Policies",
+        "created_at": "2023-10-09T00:47:04.985Z",
+        "updated_at": "2023-10-08T17:40:35.805Z",
+        "employee_id": "be449e7e-c842-4b65-9b3a-4aeeca7921f1"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f9a5722a-0f95-44e1-80da-2f27ac4ff89a",
+        "email": "Orlando.Kertzmann89@roq.tech",
+        "firstName": "Axel",
+        "lastName": "Heller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/620.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "56523f67-b061-419b-a273-3c8ab195d86f",
+        "email": "Nannie18@roq.tech",
+        "firstName": "Shawna",
+        "lastName": "Renner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/158.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f413d4dc-bd45-4cb2-b999-bcc03a3eb044",
+        "email": "Jeff_Feeney@roq.tech",
+        "firstName": "Manley",
+        "lastName": "Schultz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/40.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "54b0e44b-f751-47be-b0ee-7bd5d5414633",
+        "email": "Chaim_Vandervort46@roq.tech",
+        "firstName": "Donnell",
+        "lastName": "Schmidt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4814982",
+        "tenantId": null
+      },
+      {
+        "reference": "631c3690-94a1-4227-9856-3de4496756f8",
+        "email": "Litzy_Franey97@roq.tech",
+        "firstName": "Arden",
+        "lastName": "Dibbert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51988640",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "employee": [
+      {
+        "id": "2e897114-f313-4af6-9d8a-78be37879e13",
+        "position": "Software Engineer",
+        "hire_date": "2023-10-08T15:33:42.382Z",
+        "termination_date": "2023-10-08T10:16:57.618Z",
+        "salary": 29027,
+        "created_at": "2023-10-08T13:20:48.033Z",
+        "updated_at": "2023-10-08T19:19:15.944Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0ffbb6e5-c5c3-41c6-82fc-c8afd33b9bce",
+        "position": "Sales Manager",
+        "hire_date": "2023-10-09T02:45:00.358Z",
+        "termination_date": "2023-10-08T20:43:48.670Z",
+        "salary": 77197,
+        "created_at": "2023-10-08T14:33:56.393Z",
+        "updated_at": "2023-10-08T13:44:43.110Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6719f85c-2c90-4b09-9244-cdedc43e24ca",
+        "position": "HR Coordinator",
+        "hire_date": "2023-10-09T00:55:28.132Z",
+        "termination_date": "2023-10-09T03:38:04.822Z",
+        "salary": 39258,
+        "created_at": "2023-10-08T23:00:51.454Z",
+        "updated_at": "2023-10-08T12:41:45.211Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9bbcc3a8-eb97-4d30-8c0c-9747f99c8c41",
+        "position": "Operations Analyst",
+        "hire_date": "2023-10-08T19:33:26.736Z",
+        "termination_date": "2023-10-08T20:19:13.109Z",
+        "salary": 98479,
+        "created_at": "2023-10-09T06:53:53.442Z",
+        "updated_at": "2023-10-08T12:02:38.766Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d740167-e56e-4a5f-8a03-60fefb194e91",
+        "position": "Marketing Specialist",
+        "hire_date": "2023-10-08T19:19:50.995Z",
+        "termination_date": "2023-10-09T07:25:48.575Z",
+        "salary": 3827,
+        "created_at": "2023-10-08T19:47:16.397Z",
+        "updated_at": "2023-10-08T18:57:52.822Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "vacation": [
+      {
+        "id": "c85c6ac5-3bfa-4c07-9042-432b4bbe933d",
+        "start_date": "2023-10-09T06:16:20.766Z",
+        "end_date": "2023-10-08T08:16:12.594Z",
+        "status": "Approved",
+        "created_at": "2023-10-08T19:22:21.657Z",
+        "updated_at": "2023-10-08T12:35:45.961Z",
+        "employee_id": "0ffbb6e5-c5c3-41c6-82fc-c8afd33b9bce"
+      },
+      {
+        "id": "102c68cf-1185-4cc0-907f-d472891d1f8d",
+        "start_date": "2023-10-09T04:51:37.469Z",
+        "end_date": "2023-10-09T07:01:40.473Z",
+        "status": "Pending",
+        "created_at": "2023-10-08T10:23:02.657Z",
+        "updated_at": "2023-10-08T08:53:54.386Z",
+        "employee_id": "9bbcc3a8-eb97-4d30-8c0c-9747f99c8c41"
+      },
+      {
+        "id": "9be74552-b861-486f-a266-8b319e33486a",
+        "start_date": "2023-10-08T12:14:31.197Z",
+        "end_date": "2023-10-08T14:02:52.916Z",
+        "status": "Cancelled",
+        "created_at": "2023-10-08T08:11:14.024Z",
+        "updated_at": "2023-10-08T14:41:21.493Z",
+        "employee_id": "0ffbb6e5-c5c3-41c6-82fc-c8afd33b9bce"
+      },
+      {
+        "id": "8522fc5e-d966-4dc3-8d6c-585e793255a0",
+        "start_date": "2023-10-09T03:24:51.668Z",
+        "end_date": "2023-10-08T09:53:49.602Z",
+        "status": "Scheduled",
+        "created_at": "2023-10-08T21:14:08.968Z",
+        "updated_at": "2023-10-08T09:01:17.034Z",
+        "employee_id": "4d740167-e56e-4a5f-8a03-60fefb194e91"
+      },
+      {
+        "id": "d059a46b-aba2-414b-8c4b-0c64a3da4e31",
+        "start_date": "2023-10-08T16:57:40.408Z",
+        "end_date": "2023-10-08T19:54:40.535Z",
+        "status": "Rejected",
+        "created_at": "2023-10-08T13:35:16.990Z",
+        "updated_at": "2023-10-08T23:23:25.023Z",
+        "employee_id": "6719f85c-2c90-4b09-9244-cdedc43e24ca"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "2e51d954-0e6c-403f-a109-42e7fda9dad5",
+        "pay_period_start": "2023-10-09T05:00:55.042Z",
+        "pay_period_end": "2023-10-08T20:41:04.881Z",
+        "gross_pay": 35023,
+        "net_pay": 72369,
+        "deductions": 69859,
+        "created_at": "2023-10-09T03:41:34.372Z",
+        "updated_at": "2023-10-09T06:39:25.522Z",
+        "employee_id": "6719f85c-2c90-4b09-9244-cdedc43e24ca"
+      },
+      {
+        "id": "c98e3348-669c-4e84-85ae-d40084a090da",
+        "pay_period_start": "2023-10-08T21:01:59.423Z",
+        "pay_period_end": "2023-10-09T06:12:28.270Z",
+        "gross_pay": 38097,
+        "net_pay": 19263,
+        "deductions": 67502,
+        "created_at": "2023-10-09T00:37:46.171Z",
+        "updated_at": "2023-10-08T11:28:41.284Z",
+        "employee_id": "0ffbb6e5-c5c3-41c6-82fc-c8afd33b9bce"
+      },
+      {
+        "id": "1eff4733-639b-4e86-a22a-6c1cafb51b65",
+        "pay_period_start": "2023-10-09T05:31:33.573Z",
+        "pay_period_end": "2023-10-08T08:50:09.846Z",
+        "gross_pay": 70069,
+        "net_pay": 39013,
+        "deductions": 83756,
+        "created_at": "2023-10-08T08:49:31.759Z",
+        "updated_at": "2023-10-09T00:10:10.156Z",
+        "employee_id": "4d740167-e56e-4a5f-8a03-60fefb194e91"
+      },
+      {
+        "id": "2a751c6f-83c3-40d5-af5b-6de468f50551",
+        "pay_period_start": "2023-10-08T17:46:07.672Z",
+        "pay_period_end": "2023-10-08T10:18:42.566Z",
+        "gross_pay": 49901,
+        "net_pay": 46518,
+        "deductions": 2984,
+        "created_at": "2023-10-08T12:14:00.444Z",
+        "updated_at": "2023-10-08T12:22:34.327Z",
+        "employee_id": "4d740167-e56e-4a5f-8a03-60fefb194e91"
+      },
+      {
+        "id": "fa47e7fa-24d3-4bb5-9e41-3fe4684c5696",
+        "pay_period_start": "2023-10-08T20:44:55.888Z",
+        "pay_period_end": "2023-10-08T13:24:56.487Z",
+        "gross_pay": 8483,
+        "net_pay": 15000,
+        "deductions": 86140,
+        "created_at": "2023-10-08T10:11:03.867Z",
+        "updated_at": "2023-10-08T10:54:48.259Z",
+        "employee_id": "6719f85c-2c90-4b09-9244-cdedc43e24ca"
+      }
+    ],
+    "hr_information": [
+      {
+        "id": "e9c6ff6a-0f6a-44b8-9876-2a6439001429",
+        "information": "Employee Handbook",
+        "created_at": "2023-10-08T14:07:11.696Z",
+        "updated_at": "2023-10-08T15:11:13.885Z",
+        "employee_id": "6719f85c-2c90-4b09-9244-cdedc43e24ca"
+      },
+      {
+        "id": "88f1e9a3-9b2a-4c64-9a21-f62bd550640d",
+        "information": "Benefits Package",
+        "created_at": "2023-10-08T20:58:59.304Z",
+        "updated_at": "2023-10-08T15:49:14.523Z",
+        "employee_id": "6719f85c-2c90-4b09-9244-cdedc43e24ca"
+      },
+      {
+        "id": "46a41467-9173-40ef-afe7-b822e912cfff",
+        "information": "Training Program",
+        "created_at": "2023-10-09T02:52:12.276Z",
+        "updated_at": "2023-10-08T22:42:25.085Z",
+        "employee_id": "6719f85c-2c90-4b09-9244-cdedc43e24ca"
+      },
+      {
+        "id": "388aa5dc-e2a0-4e21-addc-c05b9c289736",
+        "information": "Performance Evaluation",
+        "created_at": "2023-10-09T05:01:46.768Z",
+        "updated_at": "2023-10-09T03:05:00.072Z",
+        "employee_id": "6719f85c-2c90-4b09-9244-cdedc43e24ca"
+      },
+      {
+        "id": "2076e645-2f59-4e2d-8f12-8796ee79d606",
+        "information": "Code of Conduct",
+        "created_at": "2023-10-08T13:27:27.189Z",
+        "updated_at": "2023-10-08T23:25:17.677Z",
+        "employee_id": "6719f85c-2c90-4b09-9244-cdedc43e24ca"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "df749363-b8b3-43d0-8f3b-b719af1d7484",
+        "email": "Lydia85@roq.tech",
+        "firstName": "Willis",
+        "lastName": "Mann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71135816",
+        "tenantId": null
+      },
+      {
+        "reference": "063b4a24-669e-4e8d-88ba-581696c25625",
+        "email": "Coralie.Howell@roq.tech",
+        "firstName": "Kaleb",
+        "lastName": "Feest",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/38.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3523840b-3d25-4250-903a-dec375544a27",
+        "email": "Lauriane_Effertz98@roq.tech",
+        "firstName": "Ken",
+        "lastName": "Rosenbaum",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90789584",
+        "tenantId": null
+      },
+      {
+        "reference": "701664ee-8bbd-4f6f-b485-1101a2d58a63",
+        "email": "Dante24@roq.tech",
+        "firstName": "Frederic",
+        "lastName": "Cruickshank",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/193.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "278c39ad-31e2-45ff-9dbc-6f5780a6677d",
+        "email": "Giuseppe_Dickinson@roq.tech",
+        "firstName": "Cydney",
+        "lastName": "Williamson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/485.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
